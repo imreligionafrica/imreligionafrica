@@ -2,13 +2,13 @@
 
 ## Replication code
 
-This repository contains the replication code for the paper [**Religion and Intergenerational Mobility in Africa**](https://www.example.com) by Alberto Alesina, Sebastian Hohmann, Stelios Michalopoulos and Elias Papaioannou. 
+This repository contains the replication code for the paper [LINK NOT YET LIVE **Religion and Intergenerational Mobility in Africa**](https://www.example.com) by Alberto Alesina, Sebastian Hohmann, Stelios Michalopoulos and Elias Papaioannou. 
 
 To replicate our results, the codes must be run in order.
 
-- The folder [_1_preprocessing](https://github.com/MChatzigakis/im_relig_replication/tree/main/_1_preprocessing) contains the code to process and standardize the raw [IPUMS](https://international.ipums.org/international/) data.
-- The folder [_2_intermediate](https://github.com/MChatzigakis/im_relig_replication/tree/main/_2_intermediate) contains the code that produces almost all of our results in "raw" form.
-- The folder [_3_figures_tables](https://github.com/MChatzigakis/im_relig_replication/tree/main/_3_figures_tables) contains the code that takes the intermediate output and produces all the tables and figures appearing in the paper.
+- The folder [_1_preprocessing](https://github.com/imreligionafrica/imreligionafrica/tree/main/_1_preprocessing) contains the code to process and standardize the raw [IPUMS](https://international.ipums.org/international/) data.
+- The folder [_2_intermediate](https://github.com/imreligionafrica/imreligionafrica/tree/main/_2_intermediate) contains the code that produces almost all of our results in "raw" form.
+- The folder [_3_figures_tables](https://github.com/imreligionafrica/imreligionafrica/tree/main/_3_figures_tables) contains the code that takes the intermediate output and produces all the tables and figures appearing in the paper.
 
 ## Software
 
@@ -24,7 +24,7 @@ This repository does **NOT** contain all the data needed to run our code.
 - The part of the heavier replication data that we can distribute is available [HERE](https://www.example.com) as part of the replication package for this paper.
 - Most of the raw data needed to reproduce our results must be downloaded from [IPUMS](https://international.ipums.org/international/) directly. The tables below list all the files that must be downloaded from IPUMS along with their names, the location in this repository and the variables they contain. For historical reasons, we downloaded all the raw IPUMS data in ```.dta``` format and to use our code without modifications, this is how they have to be downloaded. We downloaded the data by country. Files for each country and type have to be named using the [ISO3 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3).
 
-Before running the code, make sure that all necessary files have been downloaded and placed in the correct directories. The file [directory_tree.txt](https://github.com/MChatzigakis/im_relig_replication/blob/main/directory_tree.txt) shows the directory structure of the repository when all files have been downloaded.
+Before running the code, make sure that all necessary files have been downloaded and placed in the correct directories. The file [directory_tree.txt](https://github.com/imreligionafrica/imreligionafrica/blob/main/directory_tree.txt) shows the directory structure of the repository when all files have been downloaded.
 
 ## Data to be downloaded from IPUMS
 
