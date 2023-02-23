@@ -1,0 +1,12 @@
+data.table: 1.14.6
+rstudioapi: 0.14
+readxl: 1.4.2
+fixest: 0.11.1
+lfe: 2.8.8
+countrycode: 1.4.0
+tools: 4.2.2
+haven: 2.5.1
+dplyr: 1.1.0
+openxlsx: 4.2.5.2
+foreign: 0.8.82
+stringr: 1.5.0

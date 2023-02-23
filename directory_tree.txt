@@ -1,0 +1,357 @@
+├── _1_preprocessing
+│             ├── code
+│             │             ├── _0.0_extract_related_codebook.R
+│             │             ├── _0.1_related_codecheck.R
+│             │             ├── _1.1_construct_old_schooling.R
+│             │             ├── _1.2_old_schooling_aggregate_large_isos.R
+│             │             ├── _2.0_extract_perwt.R
+│             │             ├── _3.1_find_ind_occ_old.R
+│             │             ├── _3.1_ind_occ_treat_data.R
+│             │             ├── _3.2_find_ind_occ_aggregate_large_isos.R
+│             │             ├── _4.1_extract_basedat.R
+│             │             ├── _4.2_extract_religion_codebook.R
+│             │             ├── _4.3_harmonize_religions.R
+│             │             ├── _4.4_find_rel_old.R
+│             │             ├── _4.4_old_rel_treat_data.R
+│             │             ├── _4.5_find_rel_old_aggregate_large_isos.R
+│             │             ├── _5.1_cohabtypes_treat_data.R
+│             │             ├── _5.1_save_cohabtypes.R
+│             │             ├── _5.2_save_cohabtypes_aggregate_large_isos.R
+│             │             ├── _6.1_create_1to1_correspondences_geolow_hrm_geohrm.R
+│             │             ├── _6.2_extract_n_geo_low_by_iso_year.R
+│             │             ├── _6.3_extract_migyrs.R
+│             │             ├── _6.4_dealing_with_GHA_TGO.R
+│             │             ├── _6.5_harmonize_geovars.R
+│             │             ├── _6.6_reindex_districts.R
+│             │             ├── _6.7_z_concordance_correlates_district_province.R
+│             │             ├── _6.8_z_concordance_district_province.R
+│             │             ├── _6.9_get_country_years.R
+│             │             ├── _7.1_make_all_iso_eth_correspondence.R
+│             │             ├── _7.2_harmonize_ethnicities.R
+│             │             ├── _census_fractions.csv
+│             │             ├── country_years_old.csv
+│             │             ├── ethnicity_correspondence.xlsx
+│             │             ├── for_conc_prov_corrdist_whichvar.csv
+│             │             ├── geo_hrm_approaches.csv
+│             │             └── religion_harmonization_concordance_v1_2.csv
+│             └── data
+│                 ├── external
+│                 │             ├── Barro_Lee_education.dta
+│                 │             ├── Besley_Persson_state_capacity.dta
+│                 │             ├── fsi_2006.xlsx
+│                 │             ├── fsi_2007.xlsx
+│                 │             ├── fsi_2008.xlsx
+│                 │             ├── fsi_2009.xlsx
+│                 │             ├── mpd2020.xlsx
+│                 │             ├── Nunn_Slave_Trade_QJE.dta
+│                 │             ├── rugged_data.dta
+│                 │             ├── UCDP_intrastate_conflict.xlsx
+│                 │             └── WB_WGIs.xlsx
+│                 ├── raw
+│                 │             ├── edu
+│                 │             │             ├── BEN_edu.dta
+│                 │             │             ├── BFA_edu.dta
+│                 │             │             ├── BWA_edu.dta
+│                 │             │             ├── CMR_edu.dta
+│                 │             │             ├── EGY_edu.dta
+│                 │             │             ├── ETH_edu.dta
+│                 │             │             ├── GHA_edu.dta
+│                 │             │             ├── GIN_edu.dta
+│                 │             │             ├── KEN_edu.dta
+│                 │             │             ├── LBR_edu.dta
+│                 │             │             ├── LSO_edu.dta
+│                 │             │             ├── MAR_edu.dta
+│                 │             │             ├── MLI_edu.dta
+│                 │             │             ├── MOZ_edu.dta
+│                 │             │             ├── MUS_edu.dta
+│                 │             │             ├── MWI_edu.dta
+│                 │             │             ├── NGA_edu.dta
+│                 │             │             ├── RWA_edu.dta
+│                 │             │             ├── SDN_edu.dta
+│                 │             │             ├── SEN_edu.dta
+│                 │             │             ├── SLE_edu.dta
+│                 │             │             ├── SSD_edu.dta
+│                 │             │             ├── TGO_edu.dta
+│                 │             │             ├── TZA_edu.dta
+│                 │             │             ├── UGA_edu.dta
+│                 │             │             ├── ZAF_edu.dta
+│                 │             │             ├── ZMB_edu.dta
+│                 │             │             └── ZWE_edu.dta
+│                 │             ├── eth
+│                 │             │             ├── all_iso_eth_correspondence.csv
+│                 │             │             ├── BEN_eth.dta
+│                 │             │             ├── BFA_eth.dta
+│                 │             │             ├── BWA_eth.dta
+│                 │             │             ├── ETH_eth.dta
+│                 │             │             ├── GHA_eth.dta
+│                 │             │             ├── GIN_eth.dta
+│                 │             │             ├── LBR_eth.dta
+│                 │             │             ├── MAR_eth.dta
+│                 │             │             ├── MLI_eth.dta
+│                 │             │             ├── MOZ_eth.dta
+│                 │             │             ├── MUS_eth.dta
+│                 │             │             ├── MWI_eth.dta
+│                 │             │             ├── NGA_eth.dta
+│                 │             │             ├── RWA_eth.dta
+│                 │             │             ├── SEN_eth.dta
+│                 │             │             ├── SLE_eth.dta
+│                 │             │             ├── TGO_eth.dta
+│                 │             │             ├── UGA_eth.dta
+│                 │             │             ├── ZAF_eth.dta
+│                 │             │             └── ZMB_eth.dta
+│                 │             ├── geo_correspondences
+│                 │             │             ├── conc_gha_10_00.dta
+│                 │             │             ├── conc_gha_84_00.dta
+│                 │             │             ├── corr_BEN1979.dta
+│                 │             │             ├── corr_BEN1992.dta
+│                 │             │             ├── corr_BEN2002.dta
+│                 │             │             ├── corr_BEN2013.dta
+│                 │             │             ├── corr_BFA1985.dta
+│                 │             │             ├── corr_BFA1996.dta
+│                 │             │             ├── corr_BFA2006.dta
+│                 │             │             ├── corr_BWA1981.dta
+│                 │             │             ├── corr_BWA1991.dta
+│                 │             │             ├── corr_BWA2001.dta
+│                 │             │             ├── corr_BWA2011.dta
+│                 │             │             ├── corr_CMR1976.dta
+│                 │             │             ├── corr_CMR1987.dta
+│                 │             │             ├── corr_CMR2005.dta
+│                 │             │             ├── corr_EGY1986.dta
+│                 │             │             ├── corr_EGY1996.dta
+│                 │             │             ├── corr_EGY2006.dta
+│                 │             │             ├── correspondence_GHA_allyears_geo_low2000.rds
+│                 │             │             ├── correspondence_TGO_allyears_geo_low2010.rds
+│                 │             │             ├── corr_ETH1984.dta
+│                 │             │             ├── corr_ETH1994.dta
+│                 │             │             ├── corr_ETH2007.dta
+│                 │             │             ├── corr_GHA1984.dta
+│                 │             │             ├── corr_GHA2000.dta
+│                 │             │             ├── corr_GHA2010.dta
+│                 │             │             ├── corr_GIN1983.dta
+│                 │             │             ├── corr_GIN1996.dta
+│                 │             │             ├── corr_GIN2014.dta
+│                 │             │             ├── corr_KEN1969.dta
+│                 │             │             ├── corr_KEN1979.dta
+│                 │             │             ├── corr_KEN1989.dta
+│                 │             │             ├── corr_KEN1999.dta
+│                 │             │             ├── corr_KEN2009.dta
+│                 │             │             ├── corr_LBR1974.dta
+│                 │             │             ├── corr_LBR2008.dta
+│                 │             │             ├── corr_LSO1996.dta
+│                 │             │             ├── corr_LSO2006.dta
+│                 │             │             ├── corr_MAR1982.dta
+│                 │             │             ├── corr_MAR1994.dta
+│                 │             │             ├── corr_MAR2004.dta
+│                 │             │             ├── corr_MAR2014.dta
+│                 │             │             ├── corr_MLI1987.dta
+│                 │             │             ├── corr_MLI1998.dta
+│                 │             │             ├── corr_MLI2009.dta
+│                 │             │             ├── corr_MOZ1997.dta
+│                 │             │             ├── corr_MOZ2007.dta
+│                 │             │             ├── corr_MUS1990.dta
+│                 │             │             ├── corr_MUS2000.dta
+│                 │             │             ├── corr_MUS2011.dta
+│                 │             │             ├── corr_MWI1987.dta
+│                 │             │             ├── corr_MWI1998.dta
+│                 │             │             ├── corr_MWI2008.dta
+│                 │             │             ├── corr_NGA2006.dta
+│                 │             │             ├── corr_NGA2007.dta
+│                 │             │             ├── corr_NGA2008.dta
+│                 │             │             ├── corr_NGA2009.dta
+│                 │             │             ├── corr_NGA2010.dta
+│                 │             │             ├── corr_RWA1991.dta
+│                 │             │             ├── corr_RWA2002.dta
+│                 │             │             ├── corr_RWA2012.dta
+│                 │             │             ├── corr_SDN2008.dta
+│                 │             │             ├── corr_SEN1988.dta
+│                 │             │             ├── corr_SEN2002.dta
+│                 │             │             ├── corr_SEN2013.dta
+│                 │             │             ├── corr_SLE2004.dta
+│                 │             │             ├── corr_SSD2008.dta
+│                 │             │             ├── corr_TGO2010.dta
+│                 │             │             ├── corr_TZA1988.dta
+│                 │             │             ├── corr_TZA2002.dta
+│                 │             │             ├── corr_TZA2012.dta
+│                 │             │             ├── corr_UGA1991.dta
+│                 │             │             ├── corr_UGA2002.dta
+│                 │             │             ├── corr_UGA2014.dta
+│                 │             │             ├── corr_ZAF1996.dta
+│                 │             │             ├── corr_ZAF2001.dta
+│                 │             │             ├── corr_ZAF2007.dta
+│                 │             │             ├── corr_ZAF2011.dta
+│                 │             │             ├── corr_ZAF2016.dta
+│                 │             │             ├── corr_ZMB1990.dta
+│                 │             │             ├── corr_ZMB2000.dta
+│                 │             │             ├── corr_ZMB2010.dta
+│                 │             │             ├── corr_ZWE2012.dta
+│                 │             │             ├── districts_GHA.rds
+│                 │             │             ├── districts_TGO.rds
+│                 │             │             ├── gadm1_hrm2geo_low.dta
+│                 │             │             ├── geo_hrm2geo_corr.dta
+│                 │             │             ├── georaw_gha.rds
+│                 │             │             ├── georaw_tgo.rds
+│                 │             │             ├── GHA_georaw.dta
+│                 │             │             ├── hrm2bpl_corr.dta
+│                 │             │             ├── hrm2geo_corr.dta
+│                 │             │             ├── hrm2pr_corr.dta
+│                 │             │             └── TGO_georaw.dta
+│                 │             ├── gis
+│                 │             │             ├── africa_countries
+│                 │             │             │             ├── africa_countries.cpg
+│                 │             │             │             ├── africa_countries.dbf
+│                 │             │             │             ├── africa_countries.prj
+│                 │             │             │             ├── africa_countries.shp
+│                 │             │             │             └── africa_countries.shx
+│                 │             │             └── districts_for_plotting
+│                 │             │                 ├── districts_for_plotting.cpg
+│                 │             │                 ├── districts_for_plotting.dbf
+│                 │             │                 ├── districts_for_plotting.prj
+│                 │             │                 ├── districts_for_plotting.shp
+│                 │             │                 └── districts_for_plotting.shx
+│                 │             ├── migyrs
+│                 │             │             ├── BEN_migyrs.dta
+│                 │             │             ├── CMR_migyrs.dta
+│                 │             │             ├── EGY_migyrs.dta
+│                 │             │             ├── ETH_migyrs.dta
+│                 │             │             ├── GHA_migyrs.dta
+│                 │             │             ├── GIN_migyrs.dta
+│                 │             │             ├── KEN_migyrs.dta
+│                 │             │             ├── LSO_migyrs.dta
+│                 │             │             ├── MAR_migyrs.dta
+│                 │             │             ├── MLI_migyrs.dta
+│                 │             │             ├── MWI_migyrs.dta
+│                 │             │             ├── RWA_migyrs.dta
+│                 │             │             ├── SDN_migyrs.dta
+│                 │             │             ├── SSD_migyrs.dta
+│                 │             │             ├── TGO_migyrs.dta
+│                 │             │             ├── UGA_migyrs.dta
+│                 │             │             ├── ZAF_migyrs.dta
+│                 │             │             └── ZMB_migyrs.dta
+│                 │             └── other
+│                 │                 ├── BEN_other.dta
+│                 │                 ├── BFA_other.dta
+│                 │                 ├── BWA_other.dta
+│                 │                 ├── CMR_other.dta
+│                 │                 ├── EGY_other.dta
+│                 │                 ├── ETH_other.dta
+│                 │                 ├── GHA_other.dta
+│                 │                 ├── GIN_other.dta
+│                 │                 ├── KEN_other.dta
+│                 │                 ├── LBR_other.dta
+│                 │                 ├── LSO_other.dta
+│                 │                 ├── MAR_other.dta
+│                 │                 ├── MLI_other.dta
+│                 │                 ├── MOZ_other.dta
+│                 │                 ├── MUS_other.dta
+│                 │                 ├── MWI_other.dta
+│                 │                 ├── NGA_other.dta
+│                 │                 ├── RWA_other.dta
+│                 │                 ├── SDN_other.dta
+│                 │                 ├── SEN_other.dta
+│                 │                 ├── SLE_other.dta
+│                 │                 ├── SSD_other.dta
+│                 │                 ├── TGO_other.dta
+│                 │                 ├── TZA_other.dta
+│                 │                 ├── UGA_other.dta
+│                 │                 ├── ZAF_other.dta
+│                 │                 ├── ZMB_other.dta
+│                 │                 └── ZWE_other.dta
+│                 └── standardized
+│                     └── gis_covariates
+│                         └── gis_covariates.dta
+├── _2_intermediate
+│             ├── code
+│             │             ├── _0.10_ndist_eth.R
+│             │             ├── _0.1_religions_mastertab.R
+│             │             ├── _0.2_appendix_table_nobs_newdata.R
+│             │             ├── _0.3_mean_ysc_ec_by_bd_hrel_majrel.R
+│             │             ├── _0.4_nobs_bd_eth_rel.R
+│             │             ├── _0.5_compute_cohabrates.R
+│             │             ├── _0.6_make_data_for_CDFs.R
+│             │             ├── _0.7_make_pop_relshares_by_district_bd.R
+│             │             ├── _0.8_religion_transition.R
+│             │             ├── _0.9_migrant_numbers.R
+│             │             ├── _1.0_ctry_prov_dist_TIMES_rel_lit_ysc_im_lito_BCH_5_10.R
+│             │             ├── _2.0_compute_imupdown_1418_by_bchmajrel.R
+│             │             ├── _2.1_compute_imupdown_1418_by_bchmajrel_gender.R
+│             │             ├── _3.0_make_data_for_indlevel_gap_regs.R
+│             │             ├── _3.10_indlevel_gapsregs_helpers_mompop_noshrlitold.R
+│             │             ├── _3.11_run_indlevel_gap_regs_eth_refactor_noshrlitold.R
+│             │             ├── _3.12_indlevel_gapsregs_helpers_ethfe_noshrlitold.R
+│             │             ├── _3.13_run_indlevel_gap_regs_ethsample_noethfe_noshrlitold.R
+│             │             ├── _3.14_run_indlevel_gap_regs_cbc.R
+│             │             ├── _3.15_run_indlevel_gap_regs_cbc_noshrlitold.R
+│             │             ├── _3.16_make_distribution_similarity_y0_mct_bycountry.ipynb
+│             │             ├── _3.1_make_ysc0_distributions_data_for_indlevel_gap_regs.R
+│             │             ├── _3.2_make_distribution_similarity_y0_mct_bd.ipynb
+│             │             ├── _3.3_run_indlevel_gap_regs.R
+│             │             ├── _3.4_run_indlevel_gap_regs_mompop.R
+│             │             ├── _3.5_run_indlevel_gap_regs_eth.R
+│             │             ├── _3.6_run_indlevel_gap_regs_ethsample_noethfe.R
+│             │             ├── _3.7_run_indlevel_gap_regs_refactor_noshrlitold.R
+│             │             ├── _3.8_indlevel_gapsregs_helpers_noshrlitold.R
+│             │             ├── _3.9_run_indlevel_gap_regs_mompop_refactor_noshrlitold.R
+│             │             ├── _4.0_balancedness.R
+│             │             ├── _4.1_indshares_cohort_1960_older_relshares_frag.R
+│             │             ├── _4.2_simple_meantests.R
+│             │             ├── _4.3_make_data_for_distlevel_gap_regs.R
+│             │             ├── _4.4_run_distlevel_gap_regs_correlates.R
+│             │             ├── _4.5_make_data_for_distlevel_corr_regs.R
+│             │             ├── _4.6_run_distlevel_corr_regs.R
+│             │             ├── _5.0_make_migdistenves_by_majrel.R
+│             │             ├── _5.1_make_mig_for_exposure.R
+│             │             ├── _5.2_run_exposure_effects_regs.R
+│             │             ├── _5.3_nobs_condensed.R
+│             │             ├── _6.0_make_origin_level_migshares_for_distregs.ipynb
+│             │             ├── _6.1_run_distlevel_im_relshare_regressions.R
+│             │             ├── _6.2_run_distlevel_mig_relshare_regressions.R
+│             │             ├── _6.3_run_distlevel_mig_relshare_regressions_litocontrol.R
+│             │             ├── _7.0_pop_n_land_size_of_district.R
+│             │             └── _7.1_table_n_np_bl_fsi_wgis_ic_sd.R
+│             └── data
+│                 └── pop_world.csv
+├── _3_figures_tables
+│             ├── code
+│             │             ├── _0.0_plot_ysc_ec_by_bd_majrel.ipynb
+│             │             ├── _0.1_plot_CDFs.ipynb
+│             │             ├── _0.2_map_sample_structure.ipynb
+│             │             ├── _0.3_pop_n_land_size_of_districts.ipynb
+│             │             ├── _0.4_regs_table_n_np_bl_fsi_wgis_ic_sd.ipynb
+│             │             ├── _1.0_appendix_nobstab.ipynb
+│             │             ├── _1.1_herfindahl_eth_relig.ipynb
+│             │             ├── _1.2_plot_religion_transition.ipynb
+│             │             ├── _1.3_religions_mastertab.ipynb
+│             │             ├── _1.4_textab_nobs_cens_condensed.ipynb
+│             │             ├── _1.5_textab_ysc_lit_majrel.ipynb
+│             │             ├── _2.0_corrmat_dist_level_im_1418.ipynb
+│             │             ├── _2.1_plot_piecharts_major_religshares.ipynb
+│             │             ├── _2.2_relshares_by_country.ipynb
+│             │             ├── _2.3_sumstats_dist_level_im_1418_bd.ipynb
+│             │             ├── _2.4_sumstats_dist_level_im_1418.ipynb
+│             │             ├── _2.5_textab_country_im_majrel_1418.ipynb
+│             │             ├── _2.6_textab_country_im_majrel_1425.ipynb
+│             │             ├── _2.7_textab_country_im_majrel_malefemale_new.ipynb
+│             │             ├── _2.8_textab_dislevel_imgaps.ipynb
+│             │             ├── _3.0_heatmaps_litlevels_simplified.ipynb
+│             │             ├── _3.1_heatmaps_imlevels_simplified.ipynb
+│             │             ├── _3.2_heatmaps_imgaps_simplified.ipynb
+│             │             ├── _3.3_heatmaps_imgaps_gha.ipynb
+│             │             ├── _4.0_plot_balancedness.ipynb
+│             │             ├── _4.1_plot_correlates_distlevel.ipynb
+│             │             ├── _4.2_plot_covariates_distlevel_gap_regs.ipynb
+│             │             ├── _4.3_plot_covariates_simple_mean_tests.ipynb
+│             │             ├── _5.0_plot_indleve_gap_regs_combined_without_and_with_shrlitold.ipynb
+│             │             ├── _5.1_plot_indleve_gap_regs_combined_without_and_with_shrlitold_mompop.ipynb
+│             │             ├── _5.2_plot_indleve_gap_regs_combined_without_and_with_shrlitold_ethfe.ipynb
+│             │             ├── _5.3_plot_indleve_gap_regs_combined_without_and_with_shrlitold_ethsample_noethfe.ipynb
+│             │             ├── _5.4_plot_ysc0_distributions_cm_of_closest_districts.ipynb
+│             │             ├── _6.0_plot_chettyhendren.ipynb
+│             │             ├── _6.1_exposure_effects_parametric.R
+│             │             ├── _6.2_plot_migshares.ipynb
+│             │             ├── _7.0_cohab_table_by_majrel.ipynb
+│             │             ├── _7.1_plot_kdens_cohab_c_d.ipynb
+│             │             ├── _8.0_seaborn_ci.ipynb
+│             │             ├── _8.1_plot_distlevel_relshare_im.ipynb
+│             │             ├── _8.2_plot_distlevel_relshare_mig.ipynb
+│             │             ├── CoefPlot.py
+│             │             └── textab.py
