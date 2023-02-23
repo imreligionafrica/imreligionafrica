@@ -1,0 +1,276 @@
+iso,religiond,religiond_str,harmonized_religion,major_religion
+BEN,1000.0,no religion,No religion,No Religion
+BEN,5000.0,muslim,"Muslim, unspecified",Muslim
+BEN,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+BEN,6003.0,protestant,"Christian, Protestant",Christian
+BEN,6018.0,methodist,"Christian, Protestant",Christian
+BEN,6115.0,other christian,"Christian, Other",Christian
+BEN,6116.0,celestial,"Christian, Protestant",Christian
+BEN,7106.0,traditional,Traditional,Traditional
+BEN,7107.0,vodoun,Traditional,Traditional
+BEN,7251.0,"other, rwanda",Other,Other
+BEN,9999.0,unknown,,
+BEN,,,,
+BFA,0.0,niu (not in universe),,
+BFA,1000.0,no religion,Other,No Religion
+BFA,5000.0,muslim,"Muslim, unspecified",Muslim
+BFA,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+BFA,6003.0,protestant,"Christian, Protestant",Christian
+BFA,7126.0,animist,Animist,Traditional
+BFA,7900.0,"other, not elsewhere classified",Other,Other
+BFA,9999.0,unknown,,
+BFA,,,,
+BWA,0.0,niu (not in universe),,
+BWA,1000.0,no religion,No religion,No Religion
+BWA,3000.0,hindu,Other,Other
+BWA,5000.0,muslim,Other,Muslim
+BWA,6000.0,christian,"Christian, unspecified",Christian
+BWA,7001.0,bahai,Other,Other
+BWA,7003.0,rastafarian,Other,Other
+BWA,7109.0,badimo,Traditional,Traditional
+BWA,7251.0,"other, rwanda",Other,Other
+BWA,9999.0,unknown,,
+BWA,,,,
+CMR,0.0,niu (not in universe),,
+CMR,1000.0,no religion,No religion,No Religion
+CMR,5000.0,muslim,"Muslim, unspecified",Muslim
+CMR,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+CMR,6002.0,orthodox,Other,Christian
+CMR,6003.0,protestant,"Christian, Protestant",Christian
+CMR,6150.0,"other christian, cameroon","Christian, Other",Christian
+CMR,7128.0,animist,Animist,Traditional
+CMR,7900.0,"other, not elsewhere classified",Other,Other
+CMR,9999.0,unknown,,
+CMR,,,,
+EGY,4000.0,jewish,Other,Other
+EGY,5000.0,muslim,"Muslim, unspecified",Muslim
+EGY,6000.0,christian,"Christian, unspecified",Christian
+EGY,7000.0,other,Other,Other
+EGY,7251.0,"other, rwanda",Other,Other
+EGY,9999.0,unknown,,
+ETH,0.0,niu (not in universe),,
+ETH,5000.0,muslim,"Muslim, unspecified",Muslim
+ETH,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+ETH,6002.0,orthodox,"Christian, Orthodox",Christian
+ETH,6003.0,protestant,"Christian, Protestant",Christian
+ETH,7135.0,traditional,Traditional,Traditional
+ETH,7136.0,"other, ethiopia",Other,Other
+ETH,9999.0,unknown,,
+GHA,1000.0,no religion,No religion,No Religion
+GHA,5000.0,muslim,"Muslim, unspecified",Muslim
+GHA,5005.0,ahmadis,"Muslim, unspecified",Muslim
+GHA,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+GHA,6003.0,protestant,"Christian, Protestant",Christian
+GHA,6005.0,pentecostal,"Christian, Protestant",Christian
+GHA,6163.0,"other christian, ghana","Christian, Other",Christian
+GHA,7145.0,"other, ghana",Other,Other
+GHA,7146.0,"traditional, ghana",Traditional,Traditional
+GHA,7900.0,"other, not elsewhere classified",Other,Other
+GHA,,,,
+GIN,0.0,niu (not in universe),,
+GIN,1000.0,no religion,No religion,No Religion
+GIN,5000.0,muslim,"Muslim, unspecified",Muslim
+GIN,6000.0,christian,"Christian, Protestant",Christian
+GIN,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+GIN,6003.0,protestant,"Christian, Protestant",Christian
+GIN,6007.0,anglican,"Christian, Protestant",Christian
+GIN,7148.0,animist,Animist,Traditional
+GIN,7149.0,"other, guinea",Other,Other
+GIN,7900.0,"other, not elsewhere classified",Other,Other
+GIN,9999.0,unknown,,
+LBR,1000.0,no religion,No religion,No Religion
+LBR,5000.0,muslim,"Muslim, unspecified",Muslim
+LBR,6000.0,christian,"Christian, unspecified",Christian
+LBR,7167.0,"other, liberia",Other,Other
+LBR,7168.0,traditional,Traditional,Traditional
+LBR,,,,
+MLI,1000.0,no religion,,No Religion
+MLI,5000.0,muslim,"Muslim, unspecified",Muslim
+MLI,6000.0,christian,"Christian, unspecified",Christian
+MLI,7172.0,"other, mali",Other,Other
+MLI,7173.0,animist,Animist,Traditional
+MLI,9999.0,unknown,,
+MLI,,,,
+MOZ,0.0,niu (not in universe),,
+MOZ,1000.0,no religion,No religion,No Religion
+MOZ,5000.0,muslim,"Muslim, unspecified",Muslim
+MOZ,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+MOZ,6005.0,pentecostal,"Christian, Protestant",Christian
+MOZ,6007.0,anglican,"Christian, Protestant",Christian
+MOZ,6021.0,zion christian,"Christian, Protestant Pentecostal",Christian
+MOZ,7900.0,"other, not elsewhere classified",Traditional,Traditional
+MOZ,9999.0,unknown,,
+MOZ,,,,
+MUS,1000.0,no religion,No religion,No Religion
+MUS,2000.0,buddhist,Other,Other
+MUS,3000.0,hindu,Other,Other
+MUS,5000.0,muslim,"Muslim, unspecified",Muslim
+MUS,6000.0,christian,"Christian, unspecified",Christian
+MUS,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+MUS,6003.0,protestant,"Christian, Protestant",Christian
+MUS,6004.0,evangelical protestant,"Christian, Protestant",Christian
+MUS,6005.0,pentecostal,"Christian, Protestant",Christian
+MUS,6006.0,adventist / seventh-day adventist,"Christian, Protestant",Christian
+MUS,6007.0,anglican,"Christian, Protestant",Christian
+MUS,6008.0,assembly of god,"Christian, Other",Christian
+MUS,6014.0,jehovah's witnesses,"Christian, Other",Christian
+MUS,6020.0,presbyterian,"Christian, Protestant",Christian
+MUS,6193.0,christian tamil,"Christian, Other",Christian
+MUS,6194.0,salvation and healing mission,"Christian, Protestant",Christian
+MUS,6195.0,voice of deliverance,"Christian, Protestant",Christian
+MUS,6196.0,other christian,"Christian, Other",Christian
+MUS,7001.0,bahai,Other,Other
+MUS,7900.0,"other, not elsewhere classified",Other,Other
+MUS,9999.0,unknown,,
+MWI,0.0,niu (not in universe),,
+MWI,1000.0,no religion,No religion,No Religion
+MWI,5000.0,muslim,"Muslim, unspecified",Muslim
+MWI,6000.0,christian,"Christian, unspecified",Christian
+MWI,7900.0,"other, not elsewhere classified",Traditional,Traditional
+MWI,,,,
+NGA,5000.0,muslim,"Muslim, unspecified",Muslim
+NGA,6000.0,christian,"Christian, unspecified",Christian
+NGA,7219.0,"other, nigeria",Other,Other
+NGA,7220.0,traditional,Traditional,Traditional
+NGA,9999.0,unknown,,
+NGA,,,,
+RWA,0.0,niu (not in universe),,
+RWA,1000.0,no religion,No religion,No Religion
+RWA,5000.0,muslim,"Muslim, unspecified",Muslim
+RWA,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+RWA,6003.0,protestant,"Christian, Protestant",Christian
+RWA,6006.0,adventist / seventh-day adventist,"Christian, Protestant",Christian
+RWA,6014.0,jehovah's witnesses,"Christian, Other",Christian
+RWA,6429.0,"other christian, rwanda 2002","Christian, Other",Christian
+RWA,7250.0,"traditional religion, rwanda",Traditional,Traditional
+RWA,7251.0,"other, rwanda",Other,Other
+RWA,9999.0,unknown,,
+SEN,0.0,niu (not in universe),,
+SEN,1000.0,no religion,No religion,No Religion
+SEN,5000.0,muslim,"Muslim, unspecified",Muslim
+SEN,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+SEN,6003.0,protestant,"Christian, Protestant",Christian
+SEN,6465.0,other christian,"Christian, Other",Christian
+SEN,7000.0,other,Other,Other
+SEN,9999.0,unknown,,
+SLE,1000.0,no religion,No religion,No Religion
+SLE,5000.0,muslim,"Muslim, unspecified",Muslim
+SLE,5005.0,ahmadis,"Muslim, Other",Muslim
+SLE,5006.0,sunni,"Muslim, Sunni",Muslim
+SLE,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+SLE,6005.0,pentecostal,"Christian, Protestant",Christian
+SLE,6006.0,adventist / seventh-day adventist,"Christian, Protestant",Christian
+SLE,6007.0,anglican,"Christian, Protestant",Christian
+SLE,6018.0,methodist,"Christian, Protestant",Christian
+SLE,6430.0,"other christian, sierra leone","Christian, Other",Christian
+SLE,7001.0,bahai,Other,Other
+SLE,7251.0,"other, rwanda",Other,Other
+SLE,7253.0,"traditional religion, sierra leone",Traditional,Traditional
+TGO,1003.0,without religion,No religion,No Religion
+TGO,5000.0,muslim,"Muslim, unspecified",Muslim
+TGO,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+TGO,6003.0,protestant,"Christian, Protestant",Christian
+TGO,6005.0,pentecostal,"Christian, Protestant",Christian
+TGO,6006.0,adventist / seventh-day adventist,"Christian, Protestant",Christian
+TGO,6008.0,assembly of god,"Christian, Other",Christian
+TGO,6009.0,baptist,"Christian, Protestant",Christian
+TGO,6014.0,jehovah's witnesses,"Christian, Other",Christian
+TGO,6018.0,methodist,"Christian, Protestant",Christian
+TGO,6020.0,presbyterian,"Christian, Protestant",Christian
+TGO,6491.0,"other christian, togo","Christian, Other",Christian
+TGO,7283.0,animist,Animist,Traditional
+TGO,7900.0,"other, not elsewhere classified",Other,Other
+TGO,9999.0,unknown,,
+TGO,,,,
+UGA,1000.0,no religion,Other,No Religion
+UGA,2000.0,buddhist,Other,Other
+UGA,3000.0,hindu,Other,Other
+UGA,4000.0,jewish,Other,Other
+UGA,5000.0,muslim,"Muslim, unspecified",Muslim
+UGA,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+UGA,6002.0,orthodox,Other,Christian
+UGA,6005.0,pentecostal,"Christian, Protestant",Christian
+UGA,6006.0,adventist / seventh-day adventist,"Christian, Protestant",Christian
+UGA,6007.0,anglican,"Christian, Protestant",Christian
+UGA,6009.0,baptist,"Christian, Protestant",Christian
+UGA,6014.0,jehovah's witnesses,"Christian, Other",Christian
+UGA,6020.0,presbyterian,"Christian, Protestant",Christian
+UGA,6487.0,other christian,"Christian, Other",Christian
+UGA,6488.0,salvation army,"Christian, Protestant",Christian
+UGA,7001.0,bahai,Other,Other
+UGA,7251.0,"other, rwanda",Other,Other
+UGA,7272.0,traditional religion,Other,Traditional
+UGA,7273.0,mammon,Other,Other
+UGA,7274.0,"other non-christian, uganda",Other,Other
+UGA,9999.0,unknown,,
+ZAF,0.0,niu (not in universe),,
+ZAF,1000.0,no religion,No religion,No Religion
+ZAF,1001.0,atheist,No religion,No Religion
+ZAF,1002.0,agnostic,No religion,No Religion
+ZAF,1003.0,without religion,No religion,No Religion
+ZAF,2000.0,buddhist,Other,Other
+ZAF,3000.0,hindu,Other,Other
+ZAF,4000.0,jewish,Other,Other
+ZAF,5000.0,muslim,"Muslim, unspecified",Muslim
+ZAF,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+ZAF,6002.0,orthodox,"Christian, Orthodox",Christian
+ZAF,6005.0,pentecostal,"Christian, Protestant",Christian
+ZAF,6006.0,adventist / seventh-day adventist,"Christian, Protestant",Christian
+ZAF,6007.0,anglican,"Christian, Protestant",Christian
+ZAF,6008.0,assembly of god,"Christian, Other",Christian
+ZAF,6009.0,baptist,"Christian, Protestant",Christian
+ZAF,6011.0,congregational,"Christian, Protestant",Christian
+ZAF,6012.0,dutch reformed,"Christian, Protestant",Christian
+ZAF,6014.0,jehovah's witnesses,"Christian, Other",Christian
+ZAF,6015.0,latter day saints (mormon),"Christian, Other",Christian
+ZAF,6016.0,lutheran,"Christian, Protestant",Christian
+ZAF,6018.0,methodist,"Christian, Protestant",Christian
+ZAF,6019.0,new apostolic,"Christian, Other",Christian
+ZAF,6020.0,presbyterian,"Christian, Protestant",Christian
+ZAF,6021.0,zion christian,"Christian, Protestant Pentecostal",Christian
+ZAF,6432.0,reformed,"Christian, Protestant",Christian
+ZAF,6433.0,international fellowship of christian churches,"Christian, Protestant Pentecostal",Christian
+ZAF,6434.0,apostolic faith mission of sa,"Christian, Protestant Pentecostal",Christian
+ZAF,6435.0,other apostolic churches,"Christian, Protestant Pentecostal",Christian
+ZAF,6436.0,pinkster protestant church,"Christian, Protestant",Christian
+ZAF,6437.0,afrikaanse protestant church,"Christian, Protestant",Christian
+ZAF,6438.0,full gospel church of god in southern africa,"Christian, Protestant",Christian
+ZAF,6439.0,pentecostal churches,"Christian, Protestant Pentecostal",Christian
+ZAF,6440.0,salvation army,"Christian, Protestant",Christian
+ZAF,6441.0,bandla lama nazaretha,"Christian, Other",Christian
+ZAF,6442.0,african methodist episcopal church,"Christian, Protestant",Christian
+ZAF,6443.0,st john's apostolic church,"Christian, Protestant Pentecostal",Christian
+ZAF,6444.0,international pentecost church,"Christian, Protestant Pentecostal",Christian
+ZAF,6445.0,ethiopian type churches,"Christian, Orthodox",Christian
+ZAF,6446.0,ethnic churches,"Christian, Other",Christian
+ZAF,6447.0,other african independent churches,"Christian, Other",Christian
+ZAF,6448.0,other christian churches,"Christian, Other",Christian
+ZAF,6449.0,other catholic churches,"Christian, Catholic",Christian
+ZAF,6450.0,other pentecostal churches,"Christian, Protestant Pentecostal",Christian
+ZAF,6451.0,other orthodox churches,"Christian, Orthodox",Christian
+ZAF,6452.0,other african apostolic churches,"Christian, Protestant Pentecostal",Christian
+ZAF,6453.0,other assemblies,"Christian, Other",Christian
+ZAF,6454.0,christian scientist,"Christian, Other",Christian
+ZAF,6455.0,christian centres,"Christian, Other",Christian
+ZAF,6456.0,other evangelical churches,"Christian, Protestant",Christian
+ZAF,6457.0,other charismatic churches,"Christian, Other",Christian
+ZAF,6459.0,other,Other,Other
+ZAF,7001.0,bahai,Other,Other
+ZAF,7251.0,"other, rwanda",Other,Other
+ZAF,7255.0,african traditional belief,Other,Traditional
+ZAF,7256.0,taoist,Other,Other
+ZAF,7257.0,confucian,Other,Other
+ZAF,7258.0,new age,Other,Other
+ZAF,7261.0,"other non-christian, s. africa",Other,Other
+ZAF,9999.0,unknown,,
+ZAF,,,,
+ZMB,0.0,niu (not in universe),,
+ZMB,1000.0,no religion,No religion,No Religion
+ZMB,2000.0,buddhist,Other,Other
+ZMB,3000.0,hindu,Other,Other
+ZMB,5000.0,muslim,"Muslim, unspecified",Muslim
+ZMB,6001.0,catholic (roman or unspecified),"Christian, Catholic",Christian
+ZMB,6003.0,protestant,"Christian, Protestant",Christian
+ZMB,7001.0,bahai,Other,Other
+ZMB,7251.0,"other, rwanda",Traditional,Traditional
+ZMB,,,,

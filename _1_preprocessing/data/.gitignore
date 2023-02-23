@@ -1,0 +1,15 @@
+*.rds
+*.dta
+*.Rhistory
+*.csv
+*.xlsx
+
+# Ignore everything in the root except
+!gis_covariates.dta
+!all_iso_eth_correspondence.csv
+
+# Ignore everything in the root except the "external" directory
+!external/**
+
+# Ignore entire "raw/gis" directory
+*raw/gis

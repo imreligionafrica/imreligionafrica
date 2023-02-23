@@ -1,0 +1,13 @@
+*.rds
+*.csv
+*.dta
+*.Rhistory
+*.xlsx
+*.png
+*.pdf
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.tex

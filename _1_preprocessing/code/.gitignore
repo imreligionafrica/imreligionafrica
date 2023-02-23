@@ -1,0 +1,29 @@
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+# End of https://www.gitignore.io/api/jupyternotebooks
+
+# python
+__pycache__/
+
+
+# R History files
+.Rhistory
+.Rapp.history
+
+#.csv and .xlsx files
+conc_prov_corrdist.csv
+conc_prov_dist.csv
+religion_codebook_new.csv
+n_geo_low_by_iso_year.csv
