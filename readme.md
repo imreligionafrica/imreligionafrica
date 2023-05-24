@@ -2,7 +2,7 @@
 
 ## Replication code
 
-This repository contains the replication code for the paper [LINK NOT YET LIVE **Religion and Intergenerational Mobility in Africa**](https://www.example.com) by Alberto Alesina, Sebastian Hohmann, Stelios Michalopoulos and Elias Papaioannou. 
+This repository contains the replication code for the paper [**Religion and Intergenerational Mobility in Africa**](https://www.nature.com/articles/s41586-023-06051-2) by Alberto Alesina, Sebastian Hohmann, Stelios Michalopoulos and Elias Papaioannou. 
 
 To replicate our results, the codes must be run in order.
 
