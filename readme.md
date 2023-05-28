@@ -1,8 +1,8 @@
-# Religion and Intergenerational Mobility in Africa
+# Religion and Educational Mobility in Africa
 
 ## Replication code
 
-This repository contains the replication code for the paper [**Religion and Intergenerational Mobility in Africa**](https://www.nature.com/articles/s41586-023-06051-2) by Alberto Alesina, Sebastian Hohmann, Stelios Michalopoulos and Elias Papaioannou. 
+This repository contains the replication code for the paper [**Religion and educational mobility in Africa**](https://www.nature.com/articles/s41586-023-06051-2) by Alberto Alesina, Sebastian Hohmann, Stelios Michalopoulos and Elias Papaioannou. 
 
 To replicate our results, the codes must be run in order.
 
